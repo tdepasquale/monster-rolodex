@@ -1,0 +1,8 @@
+.title{
+    font-family: 'Butcherman', cursive;
+    color: red;
+}
+
+.background{
+    background-image: linear-gradient(to right, green, blue, green);
+}
