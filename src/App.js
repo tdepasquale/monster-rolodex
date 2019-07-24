@@ -26,7 +26,7 @@ class App extends Component{
     return(
       <div className='App background'>
 
-        <div className="title display-2 mt-3">Monsters Rolodex</div>
+        <div className="title display-2 pt-3">Monsters Rolodex</div>
         <SearchBar placeholder="Filter Monsters..." handleChange={e => this.setState({ searchField: e.target.value })} />
         <CardList monsters={filteredMonsters} />
         
